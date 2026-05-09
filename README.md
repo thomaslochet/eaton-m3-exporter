@@ -107,6 +107,8 @@ make lint
 
 A ready-to-import Grafana dashboard is available at `dashboards/eaton-m3-exporter.json`.
 
+![Grafana dashboard example](docs/grafana-dashboard-example.png)
+
 It follows the same variable pattern as the reference dashboards:
 
 - `datasource`: Prometheus datasource selector.
