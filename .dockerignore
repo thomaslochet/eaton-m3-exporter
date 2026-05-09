@@ -1,0 +1,19 @@
+.git
+.gitignore
+AGENTS.md
+bin/
+dist/
+*.log
+*.tmp
+*.swp
+.vscode/
+.idea/
+.DS_Store
+
+# Local runtime/config artifacts
+configs/
+dashboards/
+
+# Tests and docs are not required in container builds
+**/*_test.go
+README.md

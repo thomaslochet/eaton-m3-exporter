@@ -1,0 +1,16 @@
+listen_addr: ":9734"
+scrape_timeout: 10s
+api_version: "2.0"
+
+targets:
+  - name: "ups-main"
+    base_url: "https://192.0.2.10"
+    username: "admin"
+    password: "change-me"
+    insecure_skip_verify: false
+
+  - name: "ups-lab"
+    base_url: "https://192.0.2.11"
+    username: "admin"
+    password: "change-me"
+    insecure_skip_verify: true
